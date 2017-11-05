@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <title>Weshare the best way to share</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="animate.min.css" type="text/css">
+    <link rel="stylesheet" href="creative.css" type="text/css">
+  <link type="text/css" rel="stylesheet" href="styleform.css" />
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+       <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="font-family:'Brush Script MT'; font-size:x-large; font-weight:bold; color:#ee4b28;" href="home.php">WeShare</a>
+                <a class="navbar-brand" href="home.php" style="position:relative; bottom:5px;"><img src="icon4.png"></a>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+             <li><div>
+     <a href="index.html" class="btn2 btn-lg" style = "margin:0px;position:relative; top:8px; border-radius:0px;">Home</a>
+    <a href="contactus.html" class="btn2 btn-lg" style = "margin:0px; position:relative; top:8px; border-radius:0px;">Contact Us</a>
+    <a href="login.php" class="btn2 btn-lg" style = "margin:0px; position:relative; top:8px; border-radius:0px;">Login</a>
+    <a href="register.php" class="btn2 btn-lg" style = "margin:0px; position:relative; top:8px; border-radius:0px;">Sign Up</a>
+
+</li>
+          </ul>
+        </div>
+       </div>
+    </nav>
+    
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+            </div>
+<center>
+  <div id="login-form" class = "">
+  <form method="post" action="upload.php" enctype="multipart/form-data">
+  <table align="center" width="30%" border: 0>
+  <h3> upload files</h3>
+    <tr>
+      <td><input type="file" name="userfile" class = "form-control" required/></td>
+    </tr>
+    <tr>
+      <td style= "color:white;">
+        <input type="radio" style=" width:20px;
+        height:20px;" name="type" id="choice1" value="1" checked><span style="position:relative; bottom:5px;left:5px;"><label for="choice1">Without Password&nbsp&nbsp</label></span> 
+        <input style=" width:20px;
+        height:20px;" type="radio" id="choice2" name="type" value="2" ><span style="position:relative; bottom:5px;left:5px;"><label for="choice2">Password Protected&nbsp&nbsp</label></span>
+         
+        <br>
+        <input type="password"  name="password" class = "form-control" placeholder="password"/>
+      </td>
+    </tr>
+    <tr>
+      <td><button type="submit" class="btn btn-lg btn-primary btn_red btn-block" name="upload">Add File</button></td>
+    </tr>
+     </table>
+  </form>
+  </div>
+  </center>
+        </div>
+    </header>
+</body> 
+</html>
+
+
